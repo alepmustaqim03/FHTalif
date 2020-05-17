@@ -1,0 +1,11 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ .content{
+  display: flex;
+  height: 3000px;
+  height: 3000px;
+  min-height: 50vh;
+}
