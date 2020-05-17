@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAMILY HAPPY TIME</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/7700614a00.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="target.css">
+</head>
+<body onload="Read()" class="bg-dark text white">
+  <header class="header bg-primary">
+    <center>
+      <h3 style="color:antiquewhite;" >FAMILY</h3>
+    <h1 style="color: whitesmoke;">HAPPY TIME</h1>
+    </center>
+  </header>
+  <nav class="navbar bg-primary">
+    <a href="index.html" class="navbar-brand text-white">HOME</a>
+    <a href="todo.html" class="navbar-brand text-white">TO DO LIST</a>
+    <a href="calendar.html" class="navbar-brand text-white">CALENDAR</a>
+    <a href="target.html" class="navbar-brand text-white">TARGET</a>
+    <a href="about.html" class="navbar-brand text-white">ABOUT US</a>
+  </nav>
+  <center>
+    <h3 style="color: white;">SETKAN SASARAN ANDA UNTUK TAHUN</h3>
+    <h1 style="color: red;"><script type="text/javascript">
+var dt= new Date();
+document.write(dt.getFullYear());
+    </script></h1>
+  
+  </center>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form class="border border-info p-3" id="form">
+                <h2></h2>
+                <div class="form-group">
+                    <label class="text-white"><i class="fas fa-user"></i>Target</label>
+                    <input type="text" required autocomplete="off" class="form-control" id="name" placeholder="Enter Target">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-plus"></i>Add Target
+                </button>
+            </form>
+        </div>
+        <div class="col">
+            <div class="user" id="nameTR"></div>
+        </div>
+    </div>
+</div>
+<footer class="bg-primary">
+    
+        <p class="m-0 small" style="text-align: center;" >Copyright &copy; Family Happy Times 2020 
+        <h7 style="text-align:right;">CONTACT US ON:</h7>
+        <a href="https://api.whatsapp.com/send?phone=+60176479094"><img src="whatapp.png" alt="whatsapp" width="75px" height="75px"></a>
+        <a href="https://www.instagram.com/alif.mustaqim_03/"><img src="instagram.png"alt="instagram" width="75px" height="75px" ></a>
+        <a href="https://www.facebook.com/alif.mustaqim.1466"><img src="facebook.png" alt="facebook" width="75px" height="75px"></a>
+        <a href="mailto:alepmustaqim03@gmail.com"><img src="email.png"  alt="google" width="60px" height="60px"></a>
+        </p>
+  
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="target.js"></script>
+</body>
+</html>

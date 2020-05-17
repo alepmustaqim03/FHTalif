@@ -1,0 +1,14 @@
+.user{
+    margin-left: 10%;
+    margin-right:10%
+}
+.container{
+    min-height: 50vh;
+  }
+  header{
+  background-image: url('bg2.jpg');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
